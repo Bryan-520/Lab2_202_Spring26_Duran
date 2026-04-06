@@ -1,8 +1,9 @@
 
-def search(nums:list[int],idx:int = 0, target:int= -1)->int:
+def search(nums:list[int], target: int, idx:int = 0)->int:
     #idx isn't used in this implentation but you will need it for recursive
     #convert to recursive
-    for i in range(len(nums)):
-        if nums[i] == target:
-            return i
-    return -1
+    if idx >= len(nums):
+        return -1
+    if nums[idx] == target:
+        return idx
+    return search(nums, target, idx + 1)
