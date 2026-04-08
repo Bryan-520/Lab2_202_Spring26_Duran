@@ -36,6 +36,8 @@ Day 2 Details
 
 * Mini-list size = k^2 - (k-1)^2 = Expand the polynomial: k^2 - (k^2 - 2k + 1)
 
+* Look at growth_pattern.png
+
 ## Day 3 Details
 * **Specification:** "Design a function that processes a collection of stock data (comprising open price, close price, and date) to compute an aggregate metric, such as a collection of average weekly prices."
 * **Today's Sole Objective:** Complete **Step 1 of the Design Recipe** (Data Definitions). 
