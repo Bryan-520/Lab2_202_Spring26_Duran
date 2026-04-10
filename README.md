@@ -23,7 +23,7 @@
 * Employ non-destructive methodologies exclusively.
 * Verify the integrity of your solution by ensuring all provided test cases continue to pass.
 
-Day 2 Details
+## Day 2 Details
 * Review the quadratic search algorithm provided to you.
 
 * Determine the asymptotic time complexity (Big O notation) for the function. Hint: I can tell you right away that the time complexity is neither linear nor quadratic.
